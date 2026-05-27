@@ -1,0 +1,56 @@
+tool,rule_id,category,kind,count
+CodeQL,py/mixed-returns,Other,other,46
+CodeQL,py/catch-base-exception,Unsafe Exception Handling,quality,30
+CodeQL,py/unused-import,Other,other,24
+CodeQL,py/file-not-closed,Resource Management,quality,14
+CodeQL,py/clear-text-logging-sensitive-data,Sensitive Data Exposure,security,5
+CodeQL,py/empty-except,Unsafe Exception Handling,quality,5
+CodeQL,py/weak-sensitive-data-hashing,Weak Cryptography,security,4
+CodeQL,py/log-injection,Log Injection,security,4
+CodeQL,py/unused-local-variable,Other,other,4
+CodeQL,py/insecure-cookie,Cookie Security,security,3
+CodeQL,py/client-exposed-cookie,Cookie Security,security,3
+CodeQL,py/unsafe-deserialization,Insecure Deserialization,security,3
+CodeQL,py/shell-command-constructed-from-input,Command Injection,security,3
+CodeQL,py/polluting-import,Other,other,3
+CodeQL,py/command-line-injection,Command Injection,security,2
+CodeQL,py/cookie-injection,Framework Misconfiguration,security,2
+CodeQL,py/code-injection,Code Injection,security,2
+CodeQL,py/sql-injection,SQL Injection,security,2
+CodeQL,py/unnecessary-pass,Other,other,2
+CodeQL,py/test-equals-none,Other,other,2
+CodeQL,py/xxe,XXE,security,1
+CodeQL,py/clear-text-storage-sensitive-data,Sensitive Data Exposure,security,1
+CodeQL,py/full-ssrf,SSRF,security,1
+CodeQL,py/path-injection,Path Traversal,security,1
+CodeQL,py/xml-bomb,XML Security,security,1
+CodeQL,py/flask-debug,Framework Misconfiguration,security,1
+CodeQL,py/commented-out-code,Other,other,1
+CodeQL,py/duplicate-key-dict-literal,Other,other,1
+Semgrep,python.django.security.audit.csrf-exempt.no-csrf-exempt,CSRF,security,25
+Semgrep,python.django.security.django-no-csrf-token.django-no-csrf-token,CSRF,security,19
+Semgrep,python.django.security.audit.secure-cookies.django-secure-set-cookie,Cookie Security,security,10
+Semgrep,python.flask.security.xss.audit.template-unescaped-with-safe.template-unescaped-with-safe,Cross-Site Scripting,security,7
+Semgrep,dockerfile.security.missing-user.missing-user,Framework Misconfiguration,security,4
+Semgrep,python.lang.security.deserialization.pickle.avoid-pickle,Insecure Deserialization,security,4
+Semgrep,python.django.security.injection.request-data-write.request-data-write,Dangerous File Write,security,4
+Semgrep,python.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5,Weak Cryptography,security,3
+Semgrep,python.lang.security.audit.md5-used-as-password.md5-used-as-password,Weak Cryptography,security,3
+Semgrep,python.lang.security.use-defused-xml.use-defused-xml,XXE,security,3
+Semgrep,python.django.security.injection.command.subprocess-injection.subprocess-injection,Command Injection,security,2
+Semgrep,python.flask.security.audit.secure-set-cookie.secure-set-cookie,Cookie Security,security,2
+Semgrep,python.flask.security.audit.app-run-param-config.avoid_app_run_with_bad_host,Framework Misconfiguration,security,2
+Semgrep,python.flask.security.insecure-deserialization.insecure-deserialization,Insecure Deserialization,security,2
+Semgrep,python.django.security.injection.code.user-eval.user-eval,Code Injection,security,2
+Semgrep,python.lang.security.audit.eval-detected.eval-detected,Code Injection,security,2
+Semgrep,python.lang.security.audit.subprocess-shell-true.subprocess-shell-true,Command Injection,security,2
+Semgrep,python.django.security.audit.raw-query.avoid-raw-sql,SQL Injection,security,2
+Semgrep,python.django.security.audit.avoid-insecure-deserialization.avoid-insecure-deserialization,Insecure Deserialization,security,2
+Semgrep,python.flask.security.audit.debug-enabled.debug-enabled,Framework Misconfiguration,security,1
+Semgrep,dockerfile.security.missing-user-entrypoint.missing-user-entrypoint,Framework Misconfiguration,security,1
+Semgrep,python.jwt.security.jwt-hardcode.jwt-python-hardcoded-secret,Hardcoded Credentials,security,1
+Semgrep,generic.html-templates.security.var-in-script-tag.var-in-script-tag,Cross-Site Scripting,security,1
+Semgrep,generic.html-templates.security.unquoted-attribute-var.unquoted-attribute-var,Cross-Site Scripting,security,1
+Semgrep,python.lang.security.dangerous-subprocess-use.dangerous-subprocess-use,Command Injection,security,1
+Semgrep,python.django.security.injection.ssrf.ssrf-injection-requests.ssrf-injection-requests,SSRF,security,1
+Semgrep,python.django.security.injection.raw-html-format.raw-html-format,Cross-Site Scripting,security,1

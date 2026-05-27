@@ -1,0 +1,80 @@
+category,file,codeql_count,semgrep_count,tools,overlap
+Command Injection,mitre.py,2,1,"CodeQL,Semgrep",yes
+Command Injection,views.py,3,4,"CodeQL,Semgrep",yes
+Cookie Security,views.py,6,9,"CodeQL,Semgrep",yes
+Insecure Deserialization,main.py,1,4,"CodeQL,Semgrep",yes
+Insecure Deserialization,views.py,2,4,"CodeQL,Semgrep",yes
+XXE,views.py,1,3,"CodeQL,Semgrep",no
+Framework Misconfiguration,app.py,3,2,"CodeQL,Semgrep",yes
+Sensitive Data Exposure,archive.py,1,0,CodeQL,no
+Sensitive Data Exposure,views.py,5,0,CodeQL,no
+Code Injection,mitre.py,1,2,"CodeQL,Semgrep",yes
+Code Injection,views.py,1,2,"CodeQL,Semgrep",yes
+SSRF,views.py,1,1,"CodeQL,Semgrep",yes
+Path Traversal,views.py,1,0,CodeQL,no
+XML Security,views.py,1,0,CodeQL,no
+Weak Cryptography,mitre.py,1,2,"CodeQL,Semgrep",yes
+Weak Cryptography,utility.py,1,0,CodeQL,no
+Weak Cryptography,views.py,2,3,"CodeQL,Semgrep",yes
+SQL Injection,views.py,2,2,"CodeQL,Semgrep",yes
+Log Injection,views.py,4,0,CodeQL,no
+Other,views.py,35,0,CodeQL,no
+Other,utility.py,2,0,CodeQL,no
+Other,uninstaller.py,1,0,CodeQL,no
+Other,PyGoatBot.py,1,0,CodeQL,no
+Other,apis.py,6,0,CodeQL,no
+Other,app.py,2,0,CodeQL,no
+Other,main.py,2,0,CodeQL,no
+Other,mitre.py,29,0,CodeQL,no
+Other,test.py,1,0,CodeQL,no
+Other,tests.py,2,0,CodeQL,no
+Other,urls.py,2,0,CodeQL,no
+Resource Management,apis.py,5,0,CodeQL,no
+Resource Management,archive.py,3,0,CodeQL,no
+Resource Management,main.py,1,0,CodeQL,no
+Resource Management,setup.py,1,0,CodeQL,no
+Resource Management,test.py,1,0,CodeQL,no
+Resource Management,utility.py,1,0,CodeQL,no
+Resource Management,views.py,2,0,CodeQL,no
+Unsafe Exception Handling,app.py,2,0,CodeQL,no
+Unsafe Exception Handling,apis.py,2,0,CodeQL,no
+Unsafe Exception Handling,main.py,1,0,CodeQL,no
+Unsafe Exception Handling,populate_challenge.py,2,0,CodeQL,no
+Unsafe Exception Handling,mitre.py,1,0,CodeQL,no
+Unsafe Exception Handling,views.py,26,0,CodeQL,no
+Unsafe Exception Handling,uninstaller.py,1,0,CodeQL,no
+Framework Misconfiguration,Dockerfile,0,5,Semgrep,no
+Cross-Site Scripting,challenge.html,0,1,Semgrep,no
+Cookie Security,app.py,0,2,Semgrep,no
+Weak Cryptography,app.py,0,1,Semgrep,no
+CSRF,lab.html,0,3,Semgrep,no
+CSRF,reset.html,0,1,Semgrep,no
+Framework Misconfiguration,main.py,0,1,Semgrep,no
+CSRF,index.html,0,2,Semgrep,no
+CSRF,login.html,0,1,Semgrep,no
+Cross-Site Scripting,login.html,0,2,Semgrep,no
+CSRF,apis.py,0,5,Semgrep,no
+Dangerous File Write,apis.py,0,3,Semgrep,no
+Hardcoded Credentials,mitre.py,0,1,Semgrep,no
+Cookie Security,mitre.py,0,1,Semgrep,no
+CSRF,mitre.py,0,3,Semgrep,no
+CSRF,api.py,0,1,Semgrep,no
+CSRF,archive.py,0,1,Semgrep,no
+CSRF,a9_lab.html,0,1,Semgrep,no
+CSRF,a9_lab2.html,0,1,Semgrep,no
+Cross-Site Scripting,a9_lab2.html,0,1,Semgrep,no
+CSRF,ba_lab.html,0,1,Semgrep,no
+CSRF,otp.html,0,1,Semgrep,no
+CSRF,cmd_lab.html,0,1,Semgrep,no
+CSRF,cmd_lab2.html,0,1,Semgrep,no
+Cross-Site Scripting,xss_lab.html,0,1,Semgrep,no
+Cross-Site Scripting,xss_lab_2.html,0,1,Semgrep,no
+CSRF,ssrf_discussion.html,0,4,Semgrep,no
+Cross-Site Scripting,ssrf_lab2.html,0,1,Semgrep,no
+CSRF,broken_access_lab_1.html,0,1,Semgrep,no
+CSRF,broken_access_lab_2.html,0,1,Semgrep,no
+Cross-Site Scripting,ssti_lab.html,0,1,Semgrep,no
+Cross-Site Scripting,lab2.html,0,1,Semgrep,no
+CSRF,views.py,0,15,Semgrep,no
+Dangerous File Write,views.py,0,1,Semgrep,no
+Cross-Site Scripting,views.py,0,1,Semgrep,no
